@@ -7,7 +7,7 @@ Featuring animated gameplay, strategic AI opponents, customizable player setup, 
 <img width="1466" height="842" alt="Screenshot 2026-06-24 at 17 17 36" src="https://github.com/user-attachments/assets/c3472022-b02e-4fff-8480-6a3479b6fc1e" />
 
 
-## ✨ Features
+## Features
 
 ### 🎮 Gameplay
 - Classic 4-player Ludo gameplay
@@ -31,7 +31,7 @@ AI players prioritize:
 - Intelligent move selection
 
 
-### 🎨 User Interface
+### User Interface
 
 - Modern dark-themed UI
 - Animated dice rolling
@@ -61,7 +61,7 @@ Modern-Ludo/
 ```
 
 
-## 🚀 Getting Started
+## Getting Started
 
 Clone the repository
 
@@ -84,7 +84,7 @@ open ludo.html
 or simply double-click the file.
 
 
-## 🎲 How to Play
+## How to Play
 
 1. Configure players
 
@@ -100,20 +100,20 @@ or simply double-click the file.
 5. Reach the center before everyone else
 
 
-## 🏆 Winning
+## Winning
 
 The winner is the first player to move all four pieces into the home area.
 
 
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript (ES6)
 
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - Online multiplayer
 - Room codes
