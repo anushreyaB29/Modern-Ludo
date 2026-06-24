@@ -599,25 +599,15 @@ const HOME_PATHS = {
   blue:   [[7,13],[7,12],[7,11],[7,10],[7,9],[7,8]],
 };
 
-//
-// Each start cell is adjacent to that color's own home stretch, colored in their own color:
-//   Red    HS: row 7 cols 1-6.  Start = idx 14 = [1,6]   (swapped with blue) → RED
-//   Green  HS: col 7 rows 1-6.  Start = idx 27 = [8,1]   (row1, beside green's top col) → GREEN
-//   Yellow HS: row 7 cols 9-13. Start = idx 40 = [13,8]  (col13, beside yellow entry)   → YELLOW
-//   Blue   HS: col 7 rows 9-13. Start = idx 1  = [6,13]  (swapped with red) → BLUE
 const START_INDEX = { red:14, green:27, yellow:40, blue:1 };
 
-// Last main-path cell before each color's home stretch entry:
-//   Red    enters HS from idx 12=[0,7] → next step is [1,7] (red HS)
-//   Green  enters HS from idx 24=[6,0] → next step is [7,1] (green HS)
-//   Yellow enters HS from idx 38=[14,7] → next step is [13,7] (yellow HS)
-//   Blue   enters HS from idx 51=[7,14] → next step is [7,13] (blue HS)
+
 const HOME_ENTRY = { red:12, green:24, yellow:38, blue:51 };
 
 // Safe squares (MAIN_PATH indices) — start cells are always safe
 const SAFE_INDICES = [1,8,14,21,27,34,40,47];
 
-// Yard positions on board (col, row) for each color's 4 pieces
+
 const YARD_POS = {
   red:    [[2,2],[4,2],[2,4],[4,4]],
   green:  [[10,2],[12,2],[10,4],[12,4]],
